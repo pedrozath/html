@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+.mainWrap {
+    width: 960px;
+	height: 0 auto;
+}
+
+@font-face {
+	font-family:Corbert;
+	src:url("Corbert.ttf");
+}
+
+#pag {
+	width: 960px;
+	margin: auto;
+}
+
+.chapeu {
+font-family: Oswald;
+font-size: 34px;
+float: left;
+}
+
+#topo {
+	border-bottom: 1px solid red;
+	position: fixed;
+	text-align: center;
+	background:#fff;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 235px;
+}
+
+#corpo {
+	margin-top: 225px;
+	
+}
+
+#titulo1{
+	z-index:10;
+	width: 960px;
+	margin: auto;
+	margin-top: 0;
+}
+
+.Tit {
+	font-family: Oswald;
+	color:#c81c1c;
+	font-size: 97px;
+	-webkit-transform:rotate(-90deg);
+	display:inline-block;
+	top:37px;
+	left:170;
+	text-transform: uppercase;/*para deixar letras em caixa alta*/
+}
+
+.Tit2 {
+	font-family: Oswald;
+	color:black;
+	font-size: 140px;
+	margin-top: 200px;
+}
+
+.Tit3 {
+	font-family: Oswald;
+	color:black;
+	font-size: 40px;
+}
+
+#titulo2 {
+	font-family: Oswald;
+	font-size:42px;
+	text-align:left;
+	width: 960px;
+}
+
+#caixa3{
+	font-family:Corbert;
+	font-size: 18px;
+	text-align:justify;
+	width: 260px; 
+}
+
+#caixa3 p:first-of-type {
+	margin-top:0;
+}
+
+.blocs {
+	width: 700px;
+	float: right;
+}
+
+#imagem{
+	width: 480px;
+}
+
+.img1 {
+	width: 480px;
+	float: right;
+}
+
+.img2 {
+	width: 480px;
+	float: right;
+}
+
+#comentE {
+	font-family: Oswald;
+	font-size: 18px;
+	float: right;
+	top: 240px;
+}
+
+#comentR {
+	font-family: Oswald;
+	font-size: 18px;
+	float: right;
+}
